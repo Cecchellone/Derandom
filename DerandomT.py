@@ -97,6 +97,6 @@ print("Salvataggio storico in corso")
 
 with open("DerandomT.csv","w+") as csv_out:
     csv_write = csv.writer(csv_out, delimiter=',')
-    csv_write.writerow(History)
+    csv_write.writerow([x+1 for x in History])
 
 print("Salvataggio effettutato\nChiusura completata")
