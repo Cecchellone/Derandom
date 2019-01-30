@@ -217,3 +217,13 @@ if input("la partita è conclusa!\nvuoi salvare lo storico su un file CSV? (y/n)
 
     print("Salvataggio effettutato")
 print("Partita conclusa!")
+
+
+"""
+import gi
+gi.require_version("Gtk", "3.0")
+from gi.repository import Gtk
+
+builder = Gtk.builder().new_from_file("file/path")
+"""
+
